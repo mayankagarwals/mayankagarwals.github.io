@@ -1,9 +1,16 @@
-.bg {
-  /* Full height */
+.container{
   height: 100%;
+  width: 100%;
+}
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bg {
+  height: 100%;
+  width: 100%;
+}
+
+.text-box {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  width: 100%;
 }
