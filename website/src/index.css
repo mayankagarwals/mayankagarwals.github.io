@@ -1,5 +1,0 @@
-/* Resetting margin and padding as body has 8px of default padding*/
-* {
-    margin: 0;
-    padding: 0;
-}
