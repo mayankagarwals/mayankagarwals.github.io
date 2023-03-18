@@ -1,5 +1,15 @@
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    p {
+        font-size: 1rem !important;
+    }
+}
+
 /* Resetting margin and padding as body has 8px of default padding*/
 * {
     margin: 0;
     padding: 0;
 }
+
