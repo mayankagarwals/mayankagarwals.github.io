@@ -1,16 +1,22 @@
-.container{
-  height: 100%;
-  width: 100%;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.bg {
-  height: 100%;
-  width: 100%;
-}
-
-.text-box {
-  position: absolute;
-  height: 100%;
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
   text-align: center;
-  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 20px;
 }

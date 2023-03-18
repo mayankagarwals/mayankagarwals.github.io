@@ -5,3 +5,6 @@ Steps to contribute:
 
 This will directly publish to github pages. Make sure that your code is accepted into 
 master before running the command
+
+
+Running Locally: 
