@@ -19,7 +19,7 @@ export default function App () {
         <div style={backgroundStyle}>
             <div className="overlay">
                 <h1 className={"intro"}>Hi, I'm Mayank Agarwal</h1>
-                <p className={"remark"}>Solving complex problems with ease</p>
+                <p className={"remark"}>Slow is Smooth. Smooth is Fast</p>
                 <div className="social-icons">
                     <a href="mayankagarwal44442@gmail.com"><FaEnvelope /></a>
                     <a href="https://www.linkedin.com/in/mayank-agarwal44442/"><FaLinkedin /></a>
