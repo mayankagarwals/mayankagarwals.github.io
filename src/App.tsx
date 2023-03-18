@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-import backgroundImage from './logo4.jpg';
+import backgroundImage from './assets/website_background.jpg';
 import { FaEnvelope, FaLinkedin, FaGithub, FaCalendar } from 'react-icons/fa';
 
 export default function App () {
