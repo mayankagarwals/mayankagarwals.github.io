@@ -1,0 +1,39 @@
+.BlogsNav {
+    position: fixed;
+    top: 50px; /* add top margin to position below global nav bar */
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+  }
+  
+  .BlogsNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+  }
+  
+  .BlogsNav li {
+    margin: 0 10px;
+  }
+  
+  .BlogsNav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .BlogsNav a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
