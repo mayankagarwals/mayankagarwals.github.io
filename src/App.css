@@ -33,3 +33,10 @@
   font-size: 2rem;
 }
 
+.blogList li {
+  margin-bottom: 10px;
+}
+.blogList li div {
+  display: flex;
+  justify-content: left;
+}
