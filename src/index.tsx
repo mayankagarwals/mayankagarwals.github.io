@@ -1,35 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { createRoot } from "react-dom/client";
-import {
-    createBrowserRouter,
-    RouterProvider,
-} from "react-router-dom";
-import Blog from "./components/Blog";
-import PitfallsOfRedis from "./components/blogs/PitfallsOfRedis";
-import EventBridgeVsSQS from "./components/blogs/EventBridgeVsSQS";
+import Blog from './components/Blog';
+import Post from './components/Post';
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: App(),
-    },
-    {
-        path: "blogs",
-        element: Blog(),
-    },
-    {
-        path:"blogs/pitfalls-of-redis",
-        element: PitfallsOfRedis(),
-    },
-    {
-        path:"blogs/event-bridge-sqs",
-        element: EventBridgeVsSQS()
-    }
+const router = createHashRouter([
+    { path: '/', element: <App /> },
+    { path: '/blog', element: <Blog /> },
+    { path: '/blog/:slug', element: <Post /> },
+    { path: '*', element: <Blog /> },
 ]);
 
-createRoot(document.getElementById("root")!).render(
-    <RouterProvider router={router} />
-);
+createRoot(document.getElementById('root')!).render(<RouterProvider router={router} />);
